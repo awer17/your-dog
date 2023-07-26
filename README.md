@@ -4,6 +4,8 @@
 
 The application is fully functional on modern desktop browsers - on the latest versions of Chrome, Firefox, Edge, Safari. The application is functional on a mobile device (minimum resolution 375x667.) Web pages adjust to user actions adaptive layout, depending on the resolution, the location of the slider elements changes (the number is 6/4/2 with a resolution> 1180px > 600px, you need to reload the page). block filter stack at resolution > 824px. compare page: 650px resizes block layout.
 
+
+## link to [repository](https://github.com/awer17/your-dog.git).
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
