@@ -1,0 +1,50 @@
+.wrap-input{
+  margin-top: 40px;
+  width: 170px;
+}
+.wrap-input ._text{
+  width: 170px;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+._sellect{
+  width: 180px;
+  padding: 2px;
+}
+details{
+  display: none;
+  width: 200px;
+}
+.title-filter{
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 824px){
+  details{
+    width: 200px;
+    border: 1px solid #292929;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 10;
+    width: 180px;
+    display: block;
+    left: calc(50% - 170px / 2);
+    top: 121px;
+    padding: 4px 4px ;
+    background: white;
+  }
+  .input-wrap{
+    display: none;
+  }
+  .wrap-input ._text{
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 430px){
+  details{
+    top: 151px;
+
+  }
+}

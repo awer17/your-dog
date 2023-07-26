@@ -1,0 +1,48 @@
+.btn-slid{
+  position: absolute;
+  top: calc(50% - 57px / 2);
+  right: -20px;
+  width: 57px;
+  height: 57px;
+  border: 2px solid #F1CDB3;
+  border-radius: 50%;
+  transition: .8s;
+  bottom: 0;
+  cursor: pointer;
+}
+img.btnSlid{
+  display: block;
+  margin: 0 auto;
+  margin-top: calc(50% - (23px / 2)  );
+  width: 13px;
+  height: 23px;
+}
+
+.btn-slid-lefr{
+  left: -20px;
+  position: absolute;
+  top: calc(50% - 57px / 2);
+  width: 57px;
+  height: 57px;
+  border: 2px solid #F1CDB3;
+  border-radius: 50%;
+  transition: .8s;
+  bottom: 0;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+div.btn-slid:hover ,.btn-slid-lefr:hover{
+  background: #f1e1d5;
+  border: 2px solid #F1CDB3;
+}
+
+.not-active{
+  border: 2px solid #CDCDCD;
+  cursor: default;
+}
+
+div.btn-slid.not-active:hover ,.btn-slid-lefr.not-active:hover{
+  background: none;
+  border: 2px solid #CDCDCD;
+}
